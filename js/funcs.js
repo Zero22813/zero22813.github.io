@@ -113,4 +113,7 @@ function num(id) {
     let name = document.getElementById("name").textContent;
     let img = document.getElementById("img").getAttribute("src");
     let cost = parseInt(document.getElementById("cost").textContent);
+
+    let newitem = [{"name" : name, "cost" : cost,   "img" : img}]
+    items.concat(newitem);
 } */
