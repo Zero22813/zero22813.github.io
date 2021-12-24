@@ -109,3 +109,8 @@ function num(id) {
 }
 
 //items func
+/* function addtocart() {
+    let name = document.getElementById("name").textContent;
+    let img = document.getElementById("img").getAttribute("src");
+    let cost = parseInt(document.getElementById("cost").textContent);
+} */
