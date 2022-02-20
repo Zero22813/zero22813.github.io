@@ -2,3 +2,6 @@
     border: red dashed 2px;
 }
 
+.block-img{
+    visibility: hidden;
+}
