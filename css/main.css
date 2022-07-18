@@ -3,6 +3,8 @@
 }
 
 body{
+    display: flex;
+    justify-content: center;
     margin: 0;
     padding: 0;
     background: rgb(6, 187, 187);
@@ -12,44 +14,12 @@ body{
 .header{
     width: 100%;
     /* margin-bottom: 20px; */
-    background: rgb(78, 2, 129);
-    border-bottom: 1px solid rgb(78, 2, 129);
+    background: rgb(8, 173, 173);
+    border-bottom: 1px solid rgb(20, 158, 158);
 }
 
-.menu{
+/* reg */
+/* .reg{
     display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    margin: 0;
-    padding: 20px 150px;
-}
-
-.menu-item{
-    font-size: 24px;
-}
-
-
-/* content */
-.content{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-.block{
-    display: flex;
-    /* width: 400px; */
-    margin-bottom: 20px;
-    padding: 20px;
-    border: 2px solid rgb(67, 0, 112);
-    background: rgb(78, 2, 129);
-}
-
-.block-img{
-    width: 200px;
-    /* visibility: hidden; */
-}
-
-.block-text{
-    margin: 20px;
-}
+    justify-content: center;
+} */
