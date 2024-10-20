@@ -41,3 +41,12 @@ body{
 .reg-text{
     width: 70px;
 }
+
+.play{
+    display: flex;
+    justify-content: center;
+}
+
+.game-id-button{
+    text-decoration: none;
+}
